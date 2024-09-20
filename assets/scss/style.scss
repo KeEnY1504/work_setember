@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+// тело всего сайта
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 3262px;
+    background-color: #1E201E;
+    font-family: Ubuntu;
+}
+// 
+// кнопка перехода
+.btn{
+    display: flex;
+    width: 290px;
+    height: 80px;
+    background-color: #555C52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+        background-color: #555C52;
+        text-decoration: none;
+        font-size: 35px;
+        color: #ECDFCC;
+}
+// .btn2{
+//     width: 290px;
+//     height: 80px;
+//     background-color:#555C52;
+//     border-radius: 15px;
+//     text-decoration: none;
+//     font-size: 35px;
+//     color: #ECDFCC;
+// }
+
+
+// 
+// главная страница
+.header{
+    width: 100%;
+    margin: 0 auto;
+    &__container{
+        width: 1400px;
+        height: 150px;
+        margin: 0 auto;
+        padding-top: 49px; 
+
+        &-wrap{
+            width: 1400px;
+            height: 150px;
+            background-color: #30302C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 12px 12px 2px 1px #1a1a18;
+        }
+        &-logo{
+            margin-left: 80px;
+            margin-right: 250px;
+        }
+        &-menu{
+            width: 1257px;
+            height: 48px;
+            &_links{
+                display: flex;
+                justify-content: space-between;
+                margin-right: 80px;
+                a{
+                    font-size: 35px ;
+                    text-decoration: none;
+                    color: #ECDFCC;
+                }
+            }
+        }
+    }
+}
+// 
+// встпуление на первой странице
+.intro-1str{
+    width: 1400px;
+    height: 450px;
+    margin: 0 auto;
+        &__box{
+            width: 1400px;
+            height: 450px;
+            background-color: #30302C;
+            box-shadow: 12px 12px 2px 1px #1a1a18;
+            margin-top: 80px;
+        }
+        &__texts{
+            width: 983px;
+            height: 318px;
+            position: absolute;
+            margin: 68px auto 0 68px;
+            &-text1{
+                width: 928px;
+                height: 138px;
+                margin-bottom: 57px;
+                & p{
+                    font-size: 38px;
+                    color: #ECDFCC;
+                }
+            }
+            &-text2{
+                width: 689px;
+                height: 123px;
+                & p{
+                    font-size: 30px;
+                    color: #ECDFCC;
+                }
+            }
+        }
+}
+// 
+// Бокс о макетах фигме
+.figma-1str{
+    margin: 0 auto;
+    width: 1400px;
+    height: 450px;
+    &__box{
+        width: 1400px;
+        height: 450px;
+        background-color: #30302C;
+        box-shadow: 12px 12px 2px 1px #1a1a18;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 292px;
+            height: 392px;
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+
+        }
+        &-intro{
+            width: 1060px;
+            height: 392px;  
+            & p{
+                font-size: 40px;
+                color: #ECDFCC;
+                padding-top: 40px;
+            }
+            &__btn{
+                margin: 200px auto 0 700px;
+            }
+            
+        }   
+    }
+}
+// 
+// бокс с задачами 
+.hcj-1str{
+    margin: 0 auto;
+    width: 1400px;
+    height: 450px;
+    &__box{
+        width: 1400px;
+        height: 450px;
+        background-color: #30302C;
+        box-shadow: 12px 12px 2px 1px #1a1a18;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 292px;
+            height: 392px;
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+
+        }
+        &-intro{
+            width: 1060px;
+            height: 392px;  
+            & p{
+                font-size: 40px;
+                color: #ECDFCC;
+                padding-top: 40px;
+            }
+            &__btn{
+                margin: 200px auto 0 700px;
+            }
+            
+        }   
+    }
+}
+// 
+// бокс - справочник 
+.vsc-1str{
+    margin: 0 auto;
+    width: 1400px;
+    height: 450px;
+    &__box{
+        width: 1400px;
+        height: 450px;
+        background-color: #30302C;
+        box-shadow: 12px 12px 2px 1px #1a1a18;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 292px;
+            height: 392px;
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+
+        }
+        &-intro{
+            width: 1060px;
+            height: 392px;  
+            & p{
+                font-size: 40px;
+                color: #ECDFCC;
+                padding-top: 40px;
+            }
+            &__btn{
+                margin: 200px auto 0 700px;
+            }
+            
+        }   
+    }
+}
+// 
+// Бокс с ожиданием от сайта
+.expr-1str{
+    margin: 0 auto;
+    width: 1400px;
+    height: 450px;
+    &__box{
+        width: 1400px;
+        height: 450px;
+        background-color: #30302C;
+        box-shadow: 12px 12px 2px 1px #1a1a18;
+        margin-top: 80px;
+    }
+    &__texts{
+        width: 983px;
+        height: 318px;
+        position: absolute;
+        margin: 68px auto 0 68px;
+        &-text1{
+            width: 928px;
+            margin-bottom: 50px;
+            & h1{
+                font-size: 38px;
+                color: #ECDFCC;
+            }
+        }
+        &-text2{
+            width: 889px;
+            height: 123px;
+            & p{
+                font-size: 30px;
+                color: #ECDFCC;
+            }
+        }
+    }
+}
+// 
+// подвал 
+.footer{
+    width: 1400px;
+    height: 311px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+        &__boxs{
+            width: 1400px;
+            height: 311px;
+            background-color: #30302C;
+            box-shadow: 12px 12px 2px 1px #1a1a18;
+            margin: 0 auto;
+            margin-top: 80px;
+            display: flex;
+            &-box{
+                margin-left: 144px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                & a , p{
+                    font-size: 25px;
+                    color: #ECDFCC;
+                    text-decoration: none;
+                    text-align: center;
+                }
+                &_img{
+                    margin-top: 40px;
+                    margin-left: 60px;
+                }
+            }
+        }
+}
+// 
+
+.easy{
+    width: 1400px;
+    height: 311px;
+    margin: 0 auto;
+    &__boxs{
+        width: 1400px;
+        height: 450px;
+        background-color: #30302C;
+        box-shadow: 12px 12px 2px 1px #1a1a18;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-box{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &_title{
+                width: 300px;
+                height: 300px;
+                background-color: #555C52;
+                border-radius: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap:112px;
+                margin-left: 20px;
+                & a {
+                    font-size: 30px;
+                    color: #ECDFCC;
+                }& p{
+                    color: #ECDFCC;
+                    
+                }
+                & .btn2{
+                    background-color:#30302C;
+                    width: 250px;
+                    height: 80px;
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    & a{
+                        text-decoration: none;
+                    }
+                }
+            }
+            &__more{
+                height: 450px;
+                width: 110px;
+                border-radius: 50px 0  0 50px;
+                background-color: #555C52;
+                display: flex;
+                align-items: center;
+                & a{
+                    text-decoration: none;
+                    color: #ECDFCC;
+                    font-size: 34px; 
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
